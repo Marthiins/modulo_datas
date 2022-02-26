@@ -13,7 +13,7 @@ public class DatasEmJava1 {
 		Calendar calendar = Calendar.getInstance();/*Instaciar um objeto calendario*/
 		calendar.setTime(dataInicial);/*Passo a data inicial*/
 
-		for (int parcela = 1; parcela <= 12; parcela++) {
+		for (int parcela = 1; parcela <= 12; parcela++) {/*Boleto de vinanciamento de 12 parcelas*/
 			calendar.add(Calendar.MONTH, 1); /* A partir vou adicionar 1 mês */
 		
 		System.out.println("Parcela de numero: " + parcela + " Vencimento é em : "
